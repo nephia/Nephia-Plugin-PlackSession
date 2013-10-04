@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use parent 'Nephia::Plugin';
 
-our $VERSION = "0.01";
+our $VERSION = "0.80";
 
 sub exports {
     qw/ session /;
@@ -14,13 +14,13 @@ sub session {
     my ($self, $context) = @_;
 
     return sub {
-        my $session = $context->get('session');
+        my $session = $context->get('sessions');
         if (defined $session) {
             return $session;
         } else {
             my $req = $context->get('req');
             $session = Plack::Session->new($req->env);
-            $context->set(session => $session);
+            $context->set(sessions => $session);
             return $session;
         }
     };

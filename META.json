@@ -42,15 +42,31 @@
       },
       "runtime" : {
          "requires" : {
+            "Nephia" : "0",
+            "Plack::Middleware::Session" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Plack::Builder" : "0",
+            "Test::More" : "0.98",
+            "Test::Requires" : "0",
+            "Test::WWW::Mechanize::PSGI" : "0"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/nephia/Nephia-Plugin-PlackSession/issues"
+      },
+      "homepage" : "https://github.com/nephia/Nephia-Plugin-PlackSession",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/nephia/Nephia-Plugin-PlackSession.git",
+         "web" : "https://github.com/nephia/Nephia-Plugin-PlackSession"
+      }
+   },
+   "version" : "0.80"
 }
