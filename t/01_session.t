@@ -16,7 +16,7 @@ use Plack::Middleware::Session;
 }
 
 my $app = builder {
-    enable 'Session';
+    enable 'Plack::Middleware::Session';
     MyApp->run();
 };
 
