@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/nephia/Nephia-Plugin-PlackSession.png?branch=master)](https://travis-ci.org/nephia/Nephia-Plugin-PlackSession) [![Coverage Status](https://coveralls.io/repos/nephia/Nephia-Plugin-PlackSession/badge.png?branch=master)](https://coveralls.io/r/nephia/Nephia-Plugin-PlackSession?branch=master)
 # NAME
 
 Nephia::Plugin::PlackSession - Session plugin for Nephia
