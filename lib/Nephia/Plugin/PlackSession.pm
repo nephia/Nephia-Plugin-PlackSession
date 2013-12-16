@@ -3,6 +3,7 @@ use 5.008005;
 use strict;
 use warnings;
 use parent 'Nephia::Plugin';
+use Plack::Session;
 
 our $VERSION = "0.80";
 
