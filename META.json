@@ -69,5 +69,8 @@
          "web" : "https://github.com/nephia/Nephia-Plugin-PlackSession"
       }
    },
-   "version" : "0.80"
+   "version" : "0.81",
+   "x_contributors" : [
+      "ytnobody <ytnobody@gmail.com>"
+   ]
 }

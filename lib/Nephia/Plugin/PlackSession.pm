@@ -5,7 +5,7 @@ use warnings;
 use parent 'Nephia::Plugin';
 use Plack::Session;
 
-our $VERSION = "0.80";
+our $VERSION = "0.81";
 
 sub exports {
     qw/ session /;
